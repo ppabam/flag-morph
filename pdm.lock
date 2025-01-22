@@ -5,7 +5,7 @@
 groups = ["default", "test"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:ab81d62018e674e5e015afaaf59abd1d68c373bda2430db427299946efd2f53b"
+content_hash = "sha256:2bc45da72ea8c1c505d38e60e0a695fdb18962b1e70812228ba78f5166031e4c"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -32,6 +32,18 @@ marker = "python_version < \"3.11\""
 files = [
     {file = "exceptiongroup-1.2.2-py3-none-any.whl", hash = "sha256:3111b9d131c238bec2f8f516e123e14ba243563fb135d3fe885990585aa7795b"},
     {file = "exceptiongroup-1.2.2.tar.gz", hash = "sha256:47c2edf7c6738fafb49fd34290706d1a1a2f4d1c6df275526b62cbb4aa5393cc"},
+]
+
+[[package]]
+name = "fire"
+version = "0.7.0"
+summary = "A library for automatically generating command line interfaces."
+groups = ["default"]
+dependencies = [
+    "termcolor",
+]
+files = [
+    {file = "fire-0.7.0.tar.gz", hash = "sha256:961550f07936eaf65ad1dc8360f2b2bf8408fad46abbfa4d2a3794f8d2a95cdf"},
 ]
 
 [[package]]
@@ -196,6 +208,17 @@ dependencies = [
 files = [
     {file = "pytest-8.3.4-py3-none-any.whl", hash = "sha256:50e16d954148559c9a74109af1eaf0c945ba2d8f30f0a3d3335edde19788b6f6"},
     {file = "pytest-8.3.4.tar.gz", hash = "sha256:965370d062bce11e73868e0335abac31b4d3de0e82f4007408d242b4f8610761"},
+]
+
+[[package]]
+name = "termcolor"
+version = "2.5.0"
+requires_python = ">=3.9"
+summary = "ANSI color formatting for output in terminal"
+groups = ["default"]
+files = [
+    {file = "termcolor-2.5.0-py3-none-any.whl", hash = "sha256:37b17b5fc1e604945c2642c872a3764b5d547a48009871aea3edd3afa180afb8"},
+    {file = "termcolor-2.5.0.tar.gz", hash = "sha256:998d8d27da6d48442e8e1f016119076b690d962507531df4890fcd2db2ef8a6f"},
 ]
 
 [[package]]
