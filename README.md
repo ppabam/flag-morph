@@ -45,7 +45,7 @@ $ pdm add flag-morph
 ```
 
 ### Use
-#### cli
+#### command line interface
 ```bash
 $ flag-morph "민주주의가 승리한다 내란잔당을 뿌리뽑자 - 5차 레트로 난방 탄핵버스 -" --is_print 
 Extracted nouns: ['민주주의', '승리', '내란', '잔당', '뿌리', '레트로', '난방', '탄핵', '버스']
