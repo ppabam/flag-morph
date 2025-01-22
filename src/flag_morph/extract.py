@@ -2,7 +2,7 @@ from kiwipiepy import Kiwi
 
 def extract_nouns(sentence: str):
     """
-    주어진 문장에서 NNG, NNP, NNB, NP 품사의 단어만 추출하여 리스트로 반환합니다.
+    주어진 문장에서 NNG(일반 명사), NNP(고유 명사), NP(대명사)만 추출하여 리스트로 반환합니다.
 
     :param sentence: 분석할 문장 (str)
     :return: 특정 품사의 단어 목록 (list)
