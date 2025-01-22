@@ -1,6 +1,6 @@
 [project]
 name = "flag-morph"
-version = "0.1.0"
+version = "0.2.0"
 description = "A morphological analysis module for the phrases on impeachment flags born in South Korea's unprecedented martial law situation on December 3, 2024."
 authors = [
     {name = "ppabam", email = "tom@diginori.com"},
